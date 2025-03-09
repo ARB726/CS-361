@@ -3,8 +3,6 @@ This is a repository for CS 361 (software engineering 1) for winter 2025.
 
 Read Me for Assignment 8 
 This microservice fetches and filters book data based on genre from a books.json file. It writes the filtered results to filteredBooks.txt and responds with a JSON confirmation message.
-
-
 1. How to Programmatically Request Data
 
 1.1 HTTP Method & Endpoint
@@ -31,7 +29,7 @@ For example, if you want to search for Science Fiction, the correctly formatted 
 **GET /fetch-books?genre=science%20fiction**
  Note: The space in "Science Fiction" is URL-encoded as %20.
  
- 1.3 Examples of Well-Formatted Requests
+1.3 Examples of Well-Formatted Requests
 **Retrieve all books (no filtering):**
 GET /fetch-books  OR  GET /fetch-books?genre=all
 **Retrieve fiction books**
@@ -77,7 +75,6 @@ Enter the request URL:
 **http://localhost:5000/fetch-books?genre=fiction**
 Click Send to receive the response.
 🔹 Benefit: Postman provides an easy-to-read response format.
-
 
 2. How to Programmatically Receive Data
 
